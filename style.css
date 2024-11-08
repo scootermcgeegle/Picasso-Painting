@@ -1,0 +1,143 @@
+@media(min-width: 320px) {
+    .boxSet1 {
+        margin: 5px;
+        height: 15vh;
+        width: 33vw;
+    }
+    #largeBox {
+        margin: 5px;
+        height: 30vh;
+        width: 100vw;
+    }
+    #smallBox {
+        margin: 5px;
+        height: 1vh;
+        width: 100vw;
+    }
+    .circle1 {
+        right: 80vw;
+        bottom: 90vh;
+        height: 25px;
+        width: 25px;
+    }
+    .circle2 {
+        right: 55vw;
+        bottom: 70vh;
+        height: 25px;
+        width: 25px;
+    }
+    .circle3 {
+        right: 85vw;
+        bottom: 68vh;
+        height: 25px;
+        width: 25px;
+    }
+    .circle4 {
+        right: 80vw;
+        bottom: 60vh;
+        height: 25px;
+        width: 25px;
+    }
+    .circle5 {
+        right: 70vw;
+        bottom: 78vh;
+        height: 50px;
+        width: 50px;
+    }
+    .circle6 {
+        right: 50vw;
+        bottom: 80vh;
+        height: 50px;
+        width: 50px;
+    }
+    #triangle1 {
+        right: 5vw;
+        bottom: 50vh;
+        width: 0;
+        height: 0;
+        border-left: 70px solid transparent;
+        border-right: 70px solid transparent;
+        border-bottom: 100px solid #AAFF00;
+      }
+
+      #triangle2 {
+        right: 25vw;
+        bottom: 50vh;
+        width: 0;
+        height: 0;
+        border-left: 100px solid transparent;
+        border-right: 100px solid transparent;
+        border-bottom: 120px solid #50C878;
+      }
+}
+
+.boxSetContainer {
+    display: flex;
+}
+
+.boxSet1 {
+    border: 2px solid rgb(0, 0, 0);
+    background-color: #088F8F;
+}
+
+#largeBox {
+    border: 2px solid rgb(221, 18, 18);
+    background-color: #088F8F;
+}
+
+#smallBox {
+    border: 2px solid black;
+    background-color: #5F8575;
+}
+
+.circle1 {
+    position: fixed;
+    background-color: orange;
+    border-radius: 50%;
+}
+
+.circle2 {
+    position: fixed;
+    background-color: yellow;
+    border-radius: 50%;
+}
+
+.circle3 {
+    position: fixed;
+    background-color: yellow;
+    border-radius: 50%;
+}
+
+.circle4 {
+    position: fixed;
+    background-color: yellow;
+    border-radius: 50%;
+}
+
+.circle5 {
+    position: fixed;
+    background-color: orange;
+    border-radius: 50%;
+}
+
+.circle6 {
+    position: fixed;
+    background-color: orange;
+    border-radius: 50%;
+}
+
+#triangle1 {
+  position: fixed;
+  z-index: 1;
+}
+
+#triangle2 {
+  position: fixed;
+  z-index: 0;
+}
+
+
+#message {
+    text-align: center;
+    border: 2px solid black;
+}
