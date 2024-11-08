@@ -5,12 +5,12 @@
         width: 33vw;
     }
     #largeBox {
-        margin: 5px;
-        height: 30vh;
+        margin: 15px;
+        height: 25vh;
         width: 100vw;
     }
     #smallBox {
-        margin: 5px;
+        margin: 25px;
         height: 1vh;
         width: 100vw;
     }
@@ -86,7 +86,7 @@
 }
 
 #smallBox {
-    border: 2px solid black;
+    border: 5px solid black;
     background-color: #5F8575;
 }
 
@@ -137,7 +137,3 @@
 }
 
 
-#message {
-    text-align: center;
-    border: 2px solid black;
-}
